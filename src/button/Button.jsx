@@ -39,6 +39,7 @@ class Button extends React.Component {
 
     return (
       <button
+        data-testid="button"
         style={style}
         onClick={onClick}
         className={`ds st-button ${size} ${theme} ${
